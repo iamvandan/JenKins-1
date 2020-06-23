@@ -29,5 +29,10 @@ class JenkinsDemoTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testAllWordsLoaded() {
+        let playData = PlayData()
+        XCTAssertEqual(playData.allWords.count, 0, "allWords must be 0")
+    }
 
 }

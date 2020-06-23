@@ -9,5 +9,5 @@
 import UIKit
 
 class PlayData: NSObject {
-
+    var allWords = [String]()
 }
