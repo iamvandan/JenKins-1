@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        print("View appear okok")
+        print("View appear okokk")
     }
 
 
